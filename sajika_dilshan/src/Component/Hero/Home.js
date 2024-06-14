@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import hreo from "../Pic/hreo.png"
+import hero from "../Pic/hero.png"
 import skill1 from "../Pic/skill1.png"
 import skill2 from "../Pic/skill2.png"
 import skill3 from "../Pic/skill3.png"
@@ -53,7 +53,7 @@ const Home = () => {
             </div>
             <div className='right'>
                 <div className='right_img'>
-                    <img src={hreo} alt='hreo'/>
+                    <img src={hero} alt='hreo'/>
                 </div>
             </div>
 

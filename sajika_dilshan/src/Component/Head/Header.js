@@ -40,7 +40,7 @@ const Header = () => {
             </div>
            
         </header>
-        <section className='demo'></section>
+        
     </>
   )
 }

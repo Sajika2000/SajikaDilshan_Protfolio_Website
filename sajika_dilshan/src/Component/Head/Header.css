@@ -1,6 +1,7 @@
 header{
     height: 12vh;
     line-height: 10vh;
+    margin-bottom: 0;
     
 }
 
@@ -54,11 +55,7 @@ header ul  li a:hover{
     box-shadow: -1px 11px 24px -11px rgba(0 ,0,0,0.75);
     transition: 0.5s;
 }
-.demo{
-    height: 200vh;
-   
-    
-}
+
 
 @media(max-width:768px){
     .header ul{

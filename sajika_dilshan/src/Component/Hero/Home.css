@@ -1,9 +1,10 @@
 .hero{
     position: relative;
+margin-bottom: 5%;   
 }
 
 .hero h3{
-    font-weight: 100;
+    font-weight: 200;
     letter-spacing: 2px;
 }
 
@@ -26,12 +27,77 @@
 }
 
 .hero p{
-    color :#678e99;
+    color :#878e99;
     font-size: 18px;
     line-height: 30px;
     margin-top: 30px;
 }
 
 .hero_btn {
-    margin-top: 20%;
+    margin-top: 10%;
+
 }
+
+.hero_btn h4{
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #43474b;
+    font-size: 15px;
+    margin: 30px 0 30px 0;
+
+}
+.hero_btn button{
+    margin-right: 30px;
+}
+.hero_btn i{
+    font-size: 20px;
+}
+.hero_btn button img{
+    width: 20px;
+    height: 20px;
+}
+
+.hero .left{
+    margin-top: 10%;
+    margin-right: 10%;
+
+}
+.hero .right{
+    width: 40%;
+    position: relative;
+
+}
+
+.hero .right_img{
+    background: linear-gradient(145deg ,#e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb , 4px -4px 8px #ffffff;
+  border-radius: 10px;
+  height: 580px;
+  width: 510px;
+  margin-top: 20%;
+
+}
+.hero .right_img img{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 510px;
+}
+
+@media(max-width:768px) {
+    .hero .right ,
+    .hero .left{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .hero .f_flex{
+   -ms-flex-direction: column;
+   flex-direction: column-reverse;
+    }
+    .hero .right_img{
+        width: 90%;
+        align-items: center;
+       
+    }
+    
+ }

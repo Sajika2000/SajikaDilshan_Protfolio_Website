@@ -29,6 +29,7 @@ body{
 a{
   text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 li{
   list-style: none;
@@ -62,7 +63,19 @@ button{
 }
 
 .btn_shadow:hover{
-  background-color: #ff014f;
+  background: #ff014f;
   color: white;
   transform: translateY(-10px);
+}
+
+.row ,
+.left  , 
+.right{
+  width: 50%;
+}
+.top{
+  margin-top: 50px;
+}
+.mtop{
+  margin-top: 40px;
 }
