@@ -85,3 +85,52 @@
     font-size: 18px;
     line-height: 30px;
 }
+
+@media (max-width: 768px) {
+    .about {
+        padding: 40px;
+    }
+
+    .about-row {
+        display: block; 
+        justify-content: center;
+    }
+
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .sub-title {
+        font-size: 40px; 
+    }
+
+    .tab-titles {
+        display: block; 
+        margin: 20px 0px;
+    }
+
+    .tab-links {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+        font-size: 16px; 
+    }
+
+    .tab-links::after {
+        bottom: -5px; 
+    }
+
+    .tab-links.active-link::after {
+        width: 100%; 
+    }
+
+    .about .left_img {
+        height: auto; 
+        width: 100%; 
+    }
+
+    .about p {
+        font-size: 16px; 
+        line-height: 28px; 
+    }
+}

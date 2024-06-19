@@ -5,7 +5,8 @@ import Home from './Component/Hero/Home'
 import About from './Component/About/About'
 import Service from './Component/Services/Service'
 import Protfolio from './Component/Protfolio/Protfolio'
-
+import Contact from './Component/Contact/Contact'
+import Footer from "./Component/Fotter"
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
     <About/>
     <Service/>
     <Protfolio/>
+    <Contact/>
+    <Footer />
 
 
 
