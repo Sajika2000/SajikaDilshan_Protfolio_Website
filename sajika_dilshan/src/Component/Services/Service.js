@@ -9,8 +9,8 @@ const Service = () => {
     <section className='service top' id='service'> 
         <div className='container'>
             <div className='heading'>
-                <h1>SERVICES</h1>
-                <h3>What I Do </h3>
+                <h1 className='text'>SERVICES</h1>
+                <h3 className='text'>What I Do </h3>
 
             </div>
             <div className='content grid'>

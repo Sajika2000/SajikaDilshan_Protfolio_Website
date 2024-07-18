@@ -20,7 +20,7 @@ const Card = (props) => {
             </label>
         </div>
         <div className='title'>
-           <h2 onClick={toggleModal} >{props. title}</h2>
+           <h2 onClick={toggleModal} >{props.title}</h2>
            <a href='#popup' className='arrow'onClick={toggleModal} >
              <i className='fas fa-arrow-right'></i>
 
@@ -39,15 +39,16 @@ const Card = (props) => {
                     <div className='modal-text right'>
                         <span>Featured - Design</span>
                         <h1>{props.title}</h1>
-                        <p>simple react component for adding a nice typewriter effect to your project.A simple react component for adding a nice typewriter effect to your project.A simple react component for adding a nice typewriter effect to your project</p>
-                        <p>simple react component for adding a nice typewriter effect to your project.A simple react component for adding a nice typewriter effect to your project.A simple react component for adding a nice typewriter effect to your project</p>
+                        <p>{props.desc}</p>
+                       
                         <div className='button f_flex mtop'>
                            <button className='btn_shadow'>
                             LIKE THIS <i className='fas fa-thumbs-up'></i>
                            </button>
-                           <button className='btn_shadow'>
+                           <a href={props.link}><button className='btn_shadow'>
                             VIEW PROJECT<i className='fas fa-chevron-right'></i>
                            </button>
+                           </a>
                         </div>
                         <button  className='close-modal btn_shadow' onClick={toggleModal}>
                             <i className='fas fa-times'></i>

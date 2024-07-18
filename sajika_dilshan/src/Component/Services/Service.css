@@ -26,3 +26,11 @@
     opacity: 1;
     color: white;
 }
+.heading .text{
+    text-align: center;
+}
+
+.content{
+   margin-left: 4%;
+   margin-right: 4%;
+}
