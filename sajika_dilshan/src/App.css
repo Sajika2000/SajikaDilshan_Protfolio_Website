@@ -14,7 +14,7 @@ body{
   background-color: #ecf0f3;
 }
 .container{
-  max-width: 95%;
+  max-width: 100%;
   margin: auto;
 
 }
@@ -101,6 +101,7 @@ h1{
   display: grid;
   grid-template-columns: repeat(3 ,1fr);
   grid-gap:35px
+  
 }
 p{
   color: #3c3e41;
@@ -120,14 +121,13 @@ input {
   border: 3px solid #e2e8ec;
   margin-bottom: 20px;
 }
-textarea,
+
 
 /*----------Footer---------*/
-footer {
-  margin: 20% 0 10% 0;
-}
+
 footer p {
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /*----------Footer---------*/
 @media (max-width: 768px) {

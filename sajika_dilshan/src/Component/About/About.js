@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './About.css';
-import about_img from '../Pic/about.png';
+import a from '../Pic/a.png';
 
 const About = () => {
   const [activeTab, setActiveTab] = useState('skills');
@@ -15,12 +15,19 @@ const About = () => {
         <div className="div-container">
           <div className="about-row">
             <div className="about-col-1 left_img">
-              <img src={about_img} alt="" />
+              <img src={a} alt="" />
             </div>
             <div className="about-col-2">
               <h1 className="sub-title">About Me</h1>
               <p>
-                I am an enthusiastic undergraduate who is passionate about web development and software engineering. I am eager to leverage my skills in to build user-friendly and interactive web applications. As an individual who is keen on learning from practice, I have already given my contribution to multiple projects. I'm a fast learner and a team player.
+     
+
+
+
+Hello! I'm Sajika Nagodavithana, an enthusiastic undergraduate at Sabaragamuwa University with a passion for web development and software engineering. I thrive on creating user-friendly and interactive web applications. As a fast learner and team player, I've contributed to multiple projects and am always eager to tackle challenging tasks. I'm continually expanding my knowledge in this ever-evolving field, and I look forward to leveraging my skills to make a positive impact.
+
+
+Feel free to adjust it as needed!
               </p>
               <div className="tab-titles">
                 <p
