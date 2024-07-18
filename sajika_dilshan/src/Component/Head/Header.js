@@ -26,7 +26,7 @@ const Header = () => {
                         <li><a href='#service'>service</a></li>
                         <li><a href='#protfolio'>protfolio</a></li>
                         <li><a href='#contact'>contact</a></li>
-                        <li><button className='home-btn'>BUY NOW</button></li>
+                       
                       </ul>
                       <button className='toggle' onClick={()=> setMoble(!Mobile)}>
                         {Mobile ?

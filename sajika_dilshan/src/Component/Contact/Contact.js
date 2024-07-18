@@ -49,21 +49,29 @@ const Contact = () => {
                 </div>
                 <div className='details'>
                   <h1>Sajika Dilshan</h1>
-                  <p>Chief Operating Officer</p>
-                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
+                  <p>Software Engineer Intern</p>
+                  <p>I am available for ant time. Connect with me via and call in to my account.</p> <br />
                   <p>Phone: +94 772296066</p>
                   <p>Email: sajikadilshan2000@gnail.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
+                    <a href="https://www.facebook.com/sajika.dilshan.1?mibextid=LQQJ4d">
                     <button className='btn_shadow'>
                       <i className='fab fa-facebook-f'></i>
                     </button>
+                    </a>
+                    <a href="https://www.instagram.com/'>">
                     <button className='btn_shadow'>
                       <i className='fab fa-instagram'></i>
                     </button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sajika-dilshan-489a8a227/">
                     <button className='btn_shadow'>
-                      <i className='fab fa-twitter'></i>
+                      <i className='fab fa-linkedin-in'></i>
                     </button>
+                    </a>
+                    
+                    
                   </div>
                 </div>
               </div>

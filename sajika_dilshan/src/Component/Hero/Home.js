@@ -25,14 +25,15 @@ const Home = () => {
                     <div className='col_1'>
                         <h4>FIND WITH ME</h4>
                         <div className='button'>
-                            <button className='btn_shadow'>
-                                <i className='fab fa-facebook-f'></i>
+                            <button className='btn_shadow' >
+                              <a href='https://www.facebook.com/sajika.dilshan.1?mibextid=LQQJ4d'><i className='fab fa-facebook-f'></i></a>
+                              
                             </button>
                             <button className='btn_shadow'>
-                                <i className='fab fa-instagram'></i>
+                            <a href='https://www.instagram.com/'> <i className='fab fa-instagram'></i></a>
                             </button>
                             <button className='btn_shadow'>
-                                <i className='fab fa-linkedin-in'></i>
+                            <a href='https://www.linkedin.com/in/sajika-dilshan-489a8a227/'>  <i className='fab fa-linkedin-in'></i></a>
                             </button>
                         </div>
                     </div>
